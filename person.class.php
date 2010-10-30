@@ -1,6 +1,12 @@
 <?php
-
-
+/**
+ * The Person class - set the properties that you want to display in the vCard
+ * 
+ * @package
+ * @author Gareth Poole
+ * @copyright Gareth Poole 2010
+ * @version 0.2
+ */
 class Person {
 
 	private $_display_name;

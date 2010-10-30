@@ -1,13 +1,15 @@
 <?php
-/*
-* Filename.......: class_vcard.php
-* Author.........: Troy Wolf [troy@troywolf.com]
-* Last Modified..: 2005/07/14 13:30:00
-* Description....: A class to generate vCards for contact data.
-*/
+/**
+ * The Vcard class - takes a 'Person' object and builds a vCard based on it's data. Inspired by Troy Wolf's clasS_vcard.php
+ * 
+ * @package
+ * @author Gareth Poole
+ * @copyright Gareth Poole 2010
+ * @version 0.2
+ */
 date_default_timezone_set('Europe/London');
 
-class Vcard extends Person
+class Vcard
 {
 	private $details;
 	private $filename 	= 'vcard.vcf'; //filename for download file naming
